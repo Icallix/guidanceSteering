@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>TheChoseOne</translationContributors>
+
+    <texts>
+        <text name="configuration_buyableGPS" text="GPS"/>
+        <text name="configuration_buyableGPS_withoutGPS" text="Não"/>
+        <text name="configuration_buyableGPS_withGPS" text="Sim"/>
+
+        <!--Inputs-->
+        <text name="input_GS_TOGGLE" text="GS: GPS Ligado/Desligado"/>
+        <text name="input_GS_SHOW_UI" text="GS: Mostrar menu do GPS"/>
+        <text name="input_GS_SET_AUTO_WIDTH" text="GS: Largura Automática"/>
+
+        <text name="input_GS_AXIS_REALIGN" text="GS: Realinhar faixa"/>
+        <text name="input_GS_AXIS_SHIFT_1" text="GS: Mudar para a direita"/>
+        <text name="input_GS_AXIS_SHIFT_2" text="GS: Mudar para a esquerda"/>
+        <text name="input_GS_AXIS_WIDTH_1" text="GS: Aumentar a largura da faixa"/>
+        <text name="input_GS_AXIS_WIDTH_2" text="GS: Diminuir a largura da faixa"/>
+
+        <text name="input_GS_ENABLE_STEERING" text="GS: Ligar GPS"/>
+        <text name="input_GS_SETPOINT" text="GS: Definir o ponto do GPS"/>
+        <text name="input_GS_TOGGLE_TERRAIN_ANGLE_SNAP" text="GS: Ajustar ao ângulo do terreno"/>
+        <text name="input_GS_TURN_STEERING" text="GS: Definir a direção da direção"/>
+
+        <!--Warnings-->
+        <text name="guidanceSteering_warning_dropDistance" text="Conduza por pelo menos 15m para definir o ponto B. Distância percorrida atual: %.2f"/>
+        <text name="guidanceSteering_warning_setWidth" text="Por favor, defina uma largura de trabalho primeiro!"/>
+        <text name="guidanceSteering_warning_createTrackFirst" text="Por favor, primeiro crie ou carregue um trajeto!"/>
+
+        <!--GUI-->
+        <text name="guidanceSteering_ui_settings" text="Configurações do GPS"/>
+        <text name="guidanceSteering_ui_strategy" text="Estratégia do GPS"/>
+
+        <text name="guidanceSteering_strategy_abStraight" text="AB Reto"/>
+        <text name="guidanceSteering_strategy_abCurve" text="AB Curvo"/>
+
+        <text name="guidanceSteering_strategyMethod_aPlusB" text="A+B"/>
+        <text name="guidanceSteering_strategyMethod_autoB" text="Auto B"/>
+        <text name="guidanceSteering_strategyMethod_aPlusHeading" text="A+Cabeceira"/>
+
+        <!--Tooltips-->
+        <text name="guidanceSteering_tooltip_showLines" text="Mostra as linhas do GPS"/>
+        <text name="guidanceSteering_tooltip_terrainAngleSnap" text="Encaixe a direção com o ângulo do terreno"/>
+        <text name="guidanceSteering_tooltip_enableGuidanceSteering" text="Deixe o GPS controlar a direção"/>
+        <text name="guidanceSteering_tooltip_autoInvertOffset" text="Inverta automaticamente o offset"/>
+        <text name="guidanceSteering_tooltip_width" text="Defina a largura do seu veículo"/>
+        <text name="guidanceSteering_tooltip_offsetWidth" text="Defina o offset do seu veículo"/>
+        <text name="guidanceSteering_tooltip_widthInCrement" text="Define o incremento de largura para aumentar / diminuir o mesmo"/>
+        <text name="guidanceSteering_tooltip_offsetIncrement" text="Define o incremento de offset para aumentar / diminuir o mesmo"/>
+
+        <text name="guidanceSteering_tooltip_strategy" text="Determina qual estratégia será usada para criar as linhas do GPS"/>
+        <text name="guidanceSteering_tooltip_strategyMethod" text="Determina qual o método de estratégia usar"/>
+        <text name="guidanceSteering_tooltip_currentTrack" text="Selecione o trajeto atual para usar"/>
+        <text name="guidanceSteering_tooltip_cardinals" text="Defina os pontos cardeais"/>
+
+        <!--Warning tooltip-->
+        <text name="guidanceSteering_tooltip_trackAlreadyExists" text="Nome de trajeto: %s já existe!"/>
+        <text name="guidanceSteering_tooltip_trackIsNotCreated" text="Não foi possível guardar os dados, primeiro crie um trajeto!"/>
+
+        <!--Settings-->
+        <text name="guidanceSteering_setting_showLines" text="Mostrar linhas"/>
+        <text name="guidanceSteering_setting_terrainAngleSnap" text="Ângulo do terreno Snap"/>
+        <text name="guidanceSteering_setting_enableGuidanceSteering" text="Ativar o GPS"/>
+        <text name="guidanceSteering_setting_autoInvertOffset" text="Inverter o offset automáticamente"/>
+        <text name="guidanceSteering_setting_width" text="Largura"/>
+        <text name="guidanceSteering_setting_widthIncrement" text="Largura do Incremento"/>
+        <text name="guidanceSteering_setting_offsetIncrement" text="Offset do Incremento"/>
+        <text name="guidanceSteering_setting_autoWidth" text="Largura Automática"/>
+        <text name="guidanceSteering_setting_invertOffset" text="Invert o offset"/>
+        <text name="guidanceSteering_setting_changeWidth" text="Alterar a Largura"/>
+        <text name="guidanceSteering_setting_offsetWidth" text="Largura do Offset"/>
+        <text name="guidanceSteering_setting_resetOffsetWidth" text="Resetar largura do Offset"/>
+        <text name="guidanceSteering_setting_changeOffsetWidth" text="Mudar a largura do Offset"/>
+        <text name="guidanceSteering_setting_cardinals" text="Pontos cardiais"/>
+
+        <text name="guidanceSteering_setting_strategy" text="Estratégia de trajeto"/>
+        <text name="guidanceSteering_setting_strategyMethod" text="Método de trajeto"/>
+        <text name="guidanceSteering_setting_currentTrack" text="Trajeto atual"/>
+
+        <text name="guidanceSteering_setting_pointA" text="Definir ponto A"/>
+        <text name="guidanceSteering_setting_pointB" text="Definir ponto B"/>
+        <text name="guidanceSteering_setting_newTrack" text="Criar trajeto"/>
+        <text name="guidanceSteering_setting_removeTrack" text="Remover trajeto"/>
+        <text name="guidanceSteering_setting_saveTrack" text="Gravar trajeto"/>
+
+        <text name="guidanceSteering_setting_headlandMode" text="Modo de cabeceira"/>
+        <text name="guidanceSteering_tooltip_headlandMode" text="Com o modo cabeceira você pode definir a estratégia de atuação na cabeceira."/>
+
+        <text name="guidanceSteering_setting_headlandDistance" text="Distância da cabeceira"/>
+        <text name="guidanceSteering_tooltip_headlandDistance" text="Distância em metros, para agir antes de se aproximar da cabeceira."/>
+
+        <text name="guidanceSteering_headland_mode_0" text="Desligado"/>
+        <text name="guidanceSteering_headland_mode_1" text="Parado"/>
+        <text name="guidanceSteering_headland_mode_2" text="Virar a esquerda"/>
+        <text name="guidanceSteering_headland_mode_3" text="Virar a direita"/>
+
+        <!-- Cardinal strategy -->
+        <text name="guidanceSteering_setting_cardinalTitle" text="Ângulo desejado (graus)"/>
+        <text name="guidanceSteering_setting_cardinalConfirmText" text="Definir ângulo"/>
+    </texts>
+</l10n>
